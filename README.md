@@ -30,7 +30,8 @@ Edit the file **`c:\php\php.ini`**  and search for  **`;extension = openssl`** r
 
 On the control panel look for **System Variables** and click on **Environment Variables**.
 
-![System Variable image](https://raw.githubusercontent.com/alangustavo/wp_workspace_vscode/main/img/system_variables.png)]
+![System Variable image](https://raw.githubusercontent.com/alangustavo/wp_workspace_vscode/main/img/system_variables.png)
+
 And then add **`c:\php`** to the windows path, conforme a imagem a seguir.
 
 ![enter image description here](https://raw.githubusercontent.com/alangustavo/wp_workspace_vscode/main/img/path_php.jpg)
