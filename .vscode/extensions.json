@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"vscode-icons-team.vscode-icons",
+		"ikappas.phpcs",
+		"persoderlind.vscode-phpcbf",
+		"liximomo.sftp"
+	]
+}

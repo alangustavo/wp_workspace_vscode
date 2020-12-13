@@ -1,0 +1,49 @@
+{
+	"PHP": {
+		"scope": "html",
+		"prefix": "php_tag",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "Abre as Tags PHP"
+	},
+	"wp_function_doc": {
+		"scope": "php",
+		"prefix": "wp_function_doc",
+		"body": [
+			"/**",
+			" * Function: $1",
+			" * Description: $2 Displays the last modified date for a post",
+			" *",
+			" * @param Type $$var Description .",
+			" * @return Integer Um número aleatório .",
+			" * @throws conditon Se um erro ocorre .",
+			" */",
+			"function $1( $$var ) {",
+			"\t$3",
+			"}"
+		],
+		"description": "Cria a documentação do arquivo"
+	},
+	"wp_file_doc": {
+		"scope": "html",
+		"prefix": "wp_file_doc",
+		"body": [
+			"<?php",
+			"/**",
+			" * File: $1",
+			" * PHP version 7.4",
+			" *",
+			" * @category $2",
+			" * @package  $3",
+			" * @author   Author <ala.gustavo@gmail.com>",
+			" * @license  https://opensource.org/licenses/GPL-3.0",
+			" * @link     http://alangustavo.ga/",
+			" */",
+			"",
+			"// Insira se código aqui.",
+			""
+		],
+		"description": "Cria a documentação do arquivo"
+	}
+}

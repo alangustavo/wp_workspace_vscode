@@ -1,0 +1,11 @@
+
+{
+    "name": "NAME",
+    "host": "SERVER OR IP",
+    "protocol": "ftp",
+    "password" :"PASSWORD",
+    "port": 21,
+    "username": "USERNAME",
+    "remotePath": "REMOTE PATH",
+    "uploadOnSave": true
+}

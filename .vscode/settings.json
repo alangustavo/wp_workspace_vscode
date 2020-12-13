@@ -1,0 +1,16 @@
+{
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "phpcs.enable": true,
+    "phpcs.executablePath": "C:\\Users\\AlanGustavo\\AppData\\Roaming\\Composer\\vendor\\bin\\phpcs.bat",
+    "phpcs.standard": "WordPress",
+    "phpcbf.enable": true,
+    "phpcbf.documentFormattingProvider": true,
+    "phpcbf.onsave": true,
+    "phpcbf.executablePath":"C:\\Users\\AlanGustavo\\AppData\\Roaming\\Composer\\vendor\\bin\\phpcbf.bat",
+    "phpcbf.standard": "WordPress",
+    "editor.insertSpaces": false,
+    "files.eol": "\n",
+    "editor.defaultFormatter": "ikappas.phpcs",
+    "editor.formatOnSave": true,
+}
