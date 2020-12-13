@@ -25,12 +25,12 @@ For this example, I will use [PHP version 7.4 64 Bits Thread Safe](https://windo
  2. Copy the file **`c:\php\php.ini-development`** to **`c:\php\php.ini`** .
 
 Edit the file **`c:\php\php.ini`**  and search for  **`;extension = openssl`** remove the "**`;`**" to activate openssl,  as shown in the figure.
+
 ![php.ini enable openssl extension](https://raw.githubusercontent.com/alangustavo/wp_workspace_vscode/main/img/php_ini.png)
 
 On the control panel look for **System Variables** and click on **Environment Variables**.
 
-![System Variable image](https://raw.githubusercontent.com/alangustavo/wp_workspace_vscode/main/img/system_variables.png)
-
+![System Variable image](https://raw.githubusercontent.com/alangustavo/wp_workspace_vscode/main/img/system_variables.png)]
 And then add **`c:\php`** to the windows path, conforme a imagem a seguir.
 
 ![enter image description here](https://raw.githubusercontent.com/alangustavo/wp_workspace_vscode/main/img/path_php.jpg)
@@ -62,6 +62,6 @@ On my computer I downloaded it to the folder **c:\dev\utils\wpcs**.
 
 Then you need to configure PHPCS to find WordPress standards in the folder where you placed the WPCS files.
 ```bash
-phpcs --config-set installed_paths **c:\dev\utils\wpcs**
+phpcs --config-set installed_paths c:\dev\utils\wpcs
 ```
 Now, download [my code](https://github.com/alangustavo/wp_workspace_vscode/archive/main.zip), extract the files in a folder and open your VSCODE, click on File, Open WorkSpace point to the folder and be happy!
