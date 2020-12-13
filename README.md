@@ -16,6 +16,7 @@ This repository contains a workspace for the development of plugins and themes f
 	 - Prettier - Code formatter
 	 - SFTP (to upload e download code to my host)
 	 - vscode-icons
+	 
 ![Extensions Image](https://github.com/alangustavo/wp_workspace_vscode/raw/main/img/extensions.JPG)
 ## Download PHP
 For this example, I will use [PHP version 7.4 64 Bits Thread Safe](https://windows.php.net/downloads/releases/php-7.4.13-Win32-vc15-x64.zip) which is also compatible with my computer and the libraries and extensions we are going to use. You can see others versions [here](https://windows.php.net/download#php-7.4).
