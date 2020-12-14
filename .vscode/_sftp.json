@@ -7,5 +7,12 @@
     "port": 21,
     "username": "USERNAME",
     "remotePath": "REMOTE PATH",
-    "uploadOnSave": true
+    "uploadOnSave": true,
+	    "ignore": [
+        ".vscode",
+        ".git",
+        ".gitignore",
+        "*.code-workspace",
+        "vendor"
+    ]
 }
